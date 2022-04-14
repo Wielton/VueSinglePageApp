@@ -3,7 +3,7 @@
         <img 
             src="https://image.shutterstock.com/shutterstock/photos/1283829169/display_1500/stock-vector-fantasy-sport-logo-1283829169.jpg" 
             alt="">
-        <span>reDraft Fantsay Sports</span>
+        <span>reDraft Fantasy Sports</span>
     </div>
 </template>
 
@@ -15,13 +15,17 @@
 </script>
 
 <style scoped>
-    div {
-        background-color: rgba(119, 136, 153, 0.76);
-        }
+    #headerDiv{
+        display: flex;
+    }
+    span {
+        font-size: 3rem;
+        color: #383838;
+    }
     img {
-        
-        max-height: 50px;
-        max-width: 50px;
+        float: left;
+        max-height: 65px;
+        max-width: 65px;
     }
     
 </style>

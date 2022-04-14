@@ -73,9 +73,9 @@
 
 <style scoped>
     div {
+        box-sizing: border-box;
         display: inline-block;
         background-color: #383838;
-        width: 80%;
-        height: 80%;
+        
     }
 </style>

@@ -17,7 +17,9 @@
 
 <style scoped>
     div {
-        display: inline-block;
         background-color: #383838;
+    }
+    nav a {
+        color: rgb(253, 241, 226);
     }
 </style>

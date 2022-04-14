@@ -21,7 +21,18 @@ import LeagueMenu from './LeagueMenu.vue';
 </script>
 
 <style scoped>
+    #bodydiv {
+        color: rgb(253, 241, 226);
+        background-color: bisque;
+    }
     #leagueStandings {
-        height: 90%;
+        grid-column: 1 / 2;
+    }
+    #draftList {
+        grid-column: 3 / 4;
+    }
+    #leagueMenu {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
     }
 </style>

@@ -25,23 +25,25 @@ export default {
 
 <style>
 #app {
+  position: relative;
   box-sizing: border-box;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  width: 100%;
-  height: 100%;
   align-items: center;
+  background-color: rgba(119, 136, 153, 0.76);
+  height: 97.5vh;
 }
 #headerdiv {
-  height: 15vh;
+  height: 10%;
 }
 #bodydiv {
-  height: 100%;
-  width: 100%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 #footerdiv {
-  height: 10vh;
+  height: 15%;
 }
 </style>

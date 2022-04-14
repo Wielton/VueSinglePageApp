@@ -12,6 +12,6 @@
 
 <style scoped>
     div {
-        background-color: rgba(119, 136, 153, 0.76);
+        
     }
 </style>
